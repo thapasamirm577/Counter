@@ -1,0 +1,40 @@
+body{
+    background-color: aquamarine;
+}
+.counter{
+    background-color: rgb(152, 155, 151);
+    margin: 18vh 40vh 0vh 40vh;
+    text-align: center;
+    height: 400px;
+    box-shadow:  0 10px 16px 0 rgba(0,0,0,0.4), 0 10px 16px 0 rgba(0,0,0,0.4) ;;
+    padding-top: 100px;
+    border: 2px solid rgb(248, 247, 247);
+}
+#counting{
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 100px;
+}
+
+button{
+    height: 40px;
+    background-color: rgb(44, 47, 83);
+    cursor: pointer;
+    color: seashell;
+    border-radius: 15px;
+    border: none;
+}
+button:hover{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.2) ;;
+}
+@media screen and (max-width:600px){
+    .counter{
+        margin: 10px;
+    }
+}
+.showred{
+    color: rgb(131, 4, 4);
+}
+.showgreen{
+    color: green;
+}
